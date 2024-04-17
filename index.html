@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <script src="script.js" defer></script>
     <title>Crud User</title>
 </head>
+
 <body>
     <header>
         <h1 class="header-title">Cadastro de Clientes</h1>
@@ -45,18 +47,28 @@
             <section class="modal-content">
                 <header class="modal-header">
                     <h2>Novo Usuário</h2>
-                    <span class="modal-close" id="modalclose" >&#1006</span>
-                    <form class="modal-form">
-                        <input type="text" class="modal-field" placeholder="Nome">
-                        <input type="email" class="modal-field" placeholder="E-mail">
-                        <input type="text" class="modal-field" placeholder="Celular">
-                        <input type="text" class="modal-field" placeholder="Cidade">
-                    </form>
+                    <span class="modal-close" id="modalclose">&#10006</span>
                 </header>
+                <form class="modal-form">
+                    <input type="text" class="modal-field" placeholder="Nome">
+                    <input type="email" class="modal-field" placeholder="E-mail">
+                    <input type="text" class="modal-field" placeholder="Celular">
+                    <input type="text" class="modal-field" placeholder="Cidade">
+                </form>
+                <footer class="modal-footer">
+                    <button class="button green">
+                        Salvar
+                    </button>
+                    <button class="button blue">
+                        Cancelar
+                    </button>
+                </footer>
             </section>
-
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        Copyright &copy; Lucas Araujo
+    </footer>
 </body>
+
 </html>
